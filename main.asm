@@ -88,7 +88,7 @@
 
     format PE GUI 6.0
     entry initialize
-    include '\fasm\include\win32ax.inc'
+    include 'fasmdll64\win32ax.inc'
 
 macro init_dll dll_id, dll_name, [func_name]
 {
@@ -1207,3 +1207,4 @@ section '.res' data readable resource
         db '</dependency>'
         db '</assembly>'
     endres
+
