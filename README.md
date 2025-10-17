@@ -13,12 +13,25 @@ It is for **EDUCATIONAL PURPOSES** only.
 
 2. License expiration date can be customized (any date between the next day and December 31, 3000)
 
-3. N-User License Keys can be generated where 1 &le; N &le; 1000
+3. N-User License Keys can be generated where 1 ≤ N ≤ 1000
 
 You **DON'T NEED MSVCRT** to run this program
 
-## How to assemble
-Here are the steps for Assembling
+---
+
+## Build Instructions
+
+**Current (recommended)**
+
+1. Run `Build.cmd`.
+2. Find the built executable in the `bin` folder.
+
+> This is the preferred/current build workflow. It automates assembling and places the final executable in `bin`.
+
+<details>
+<summary>Legacy/Manual Build Instructions</summary>
+
+If you prefer to assemble manually (legacy method), follow these steps:
 
 1. Download [Flat Assembler](http://flatassembler.net/download.php)
 
@@ -32,7 +45,10 @@ Here are the steps for Assembling
 
 The current support is for Windows only.
 
-I'll be adding a linux executable soon
+~~I'll be adding a linux executable soon~~ _Probably not going to happen the original author never did this and I have no intention of doing it either try WINE._
+</details>
+
+---
 
 ## Screenshot
 
